@@ -33,7 +33,7 @@ export default function BrowseBooks() {
           className="search"
           value={search}
           onChange={e => setSearch(e.target.value)}
-          placeholder="Search by title or author..."
+          placeholder="Search Books by title or author..."
           aria-label="Search books"
         />
         <Link className="secondary-btn" to="/books">All Books</Link>
