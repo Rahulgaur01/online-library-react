@@ -26,7 +26,7 @@ export default function AddBook() {
 
   const validate = () => {
     const next = {}
-    if (!form.title.trim()) next.title = 'Title is required.'
+    if (!form.title.trim()) next.title = 'Please enter the book title.'
     if (!form.author.trim()) next.author = 'Author is required.'
     if (!form.category) next.category = 'Category is required.'
     if (!form.rating || Number(form.rating) < 1 || Number(form.rating) > 5) {
